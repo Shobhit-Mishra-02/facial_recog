@@ -20,3 +20,4 @@ def detectFace(filePath):
         cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
     return image
+
