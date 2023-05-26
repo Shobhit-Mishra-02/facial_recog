@@ -59,7 +59,10 @@ def select_image_for_eyeDetection():
 # Create the Tkinter window
 window = tk.Tk()
 window.title("Facial detection")
-# window.geometry("")
+
+# adding heading
+heading_label = tk.Label(window, text="Human Facial Feature detection", font=("Arial", 16))
+heading_label.pack(pady=20)
 
 # Create a button to select the image
 select_button = tk.Button(window, text="Detect Faces", command=select_image_for_faceDetection)
